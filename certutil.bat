@@ -3,7 +3,7 @@ color 0D & Mode 83,3
 If "%~1"=="" ( 
     color 0C & Mode 80,3
     echo(
-    echo       Drag and drop a file over this batch script to be encoded.
+    echo       Drag and drop a file over this batch script to encode it.
     Timeout /T 5 /nobreak>nul & exit /b
 )
 @for /f %%i in ("certutil.exe") do if not exist "%%~$path:i" (
